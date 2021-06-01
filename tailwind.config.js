@@ -8,5 +8,10 @@ module.exports = {
           ...(content.match(/(?<=class:)[^=>\/\s]*/g) || []),
       ]
   },
+  variants: {
+      extend: {
+       ringWidth: ['hover', 'active'],
+      }
+    }
 };
 
