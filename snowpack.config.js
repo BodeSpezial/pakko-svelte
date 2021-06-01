@@ -9,7 +9,8 @@ module.exports = {
    src: '/dist',
   },
   plugins: [
-    '@snowpack/plugin-postcss',
+   '@snowpack/plugin-svelte',
+   '@snowpack/plugin-postcss',
   ],
   packageOptions: {
     /* ... */
