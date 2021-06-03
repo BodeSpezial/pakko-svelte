@@ -10,3 +10,15 @@
 
 </style>
 
+<script>
+import Navbar from './Navbar.svelte';
+import Configurator from './Configurator.svelte';
+import Footer from './Footer.svelte';
+import BuildBar from './BuildBar.svelte';
+</script>
+
+<Navbar/>
+<Configurator/>
+<Footer/>
+<BuildBar/>
+
