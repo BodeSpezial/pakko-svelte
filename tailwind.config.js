@@ -11,6 +11,7 @@ module.exports = {
   variants: {
       extend: {
        ringWidth: ['hover', 'active'],
+       backgroundColor: ['active','checked'],
       }
     }
 };
